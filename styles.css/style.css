@@ -92,7 +92,7 @@ main{
 }
 
 /* nav styles */
-nav{
+.header nav{
     padding: 50px 0px;
     display: flex;
     justify-content: space-between;
@@ -235,4 +235,29 @@ input[type="email"],input[type="text"],textarea{
     border-radius: 10px;
     width: 97%;
     margin-top: 10px;
+}
+
+/* footer styles */
+footer{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    padding: 104px 454px;
+    text-align: center;      
+}
+.footer p{
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.footer nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer nav ul li{
+    list-style: none;
+}
+.footer nav ul li a{
+    text-decoration: none;
 }
