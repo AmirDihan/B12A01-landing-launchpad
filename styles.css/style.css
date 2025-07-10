@@ -89,8 +89,12 @@ main{
     background-image: url('../Assets/Hero-bg.png');
     max-height: 700px;
     padding: 0px 150px 150px;
+    display: flex;
+    justify-content: center;
 }
-
+.header-container{
+    max-width: 1140px;
+}
 /* nav styles */
 .header nav{
     padding: 50px 0px;
