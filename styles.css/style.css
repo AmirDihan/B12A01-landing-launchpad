@@ -19,7 +19,7 @@
 }
 /* shared font weight */
 .medium{
-    font-weight: 600px;
+    font-weight: 600;
 }
 .bold{
     font-weight: bold;
@@ -136,6 +136,7 @@ nav{
     text-align: center;
     padding: 50px 142px;
     margin-bottom: 137px;
+    border-radius: 24px;
 }
 .productive-user-numbers{
     display: flex;
@@ -190,6 +191,7 @@ nav{
     padding: 71px 150px;
     background: white;
     text-align: center;
+    border-radius: 14px;
 }
 .ready-to-focus-img{
     border-radius: 48px;
@@ -197,4 +199,40 @@ nav{
 }
 .ready-to-focus-description{
     margin: 20px 0px;
+}
+
+/* user-login */
+.user-login{
+    width: 100%;
+    padding: 71px 0px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    /* gap: 115px; */
+    justify-content:space-between;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.form-title{
+    padding: 130px 0px;
+}
+.form-details{
+}
+input[type="submit"]{
+    padding: 19px 223px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+input[type="email"],input[type="text"],textarea{
+    display: block;
+    padding: 20px 0px 20px 20px;
+    margin-bottom: 19px;
+    border: none;
+    border-radius: 10px;
+    width: 97%;
+    margin-top: 10px;
 }
