@@ -184,3 +184,17 @@ nav{
     flex-direction: column;
     justify-content: center;
 }
+
+/* ready-to-focus */
+.ready-to-focus{
+    padding: 71px 150px;
+    background: white;
+    text-align: center;
+}
+.ready-to-focus-img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.ready-to-focus-description{
+    margin: 20px 0px;
+}
