@@ -84,6 +84,17 @@ main{
     color: #252432;
     opacity: 80%;
 }
+
+/* Hover Effects */
+button:hover,input[type="submit"]:hover{
+    background-color: #130ea2;
+    font-weight: bolder;
+    cursor: pointer;
+}
+a:hover{
+    font-weight: bolder;
+}
+
 /* hearder style */
 .header{
     background-image: url('../Assets/Hero-bg.png');
@@ -157,9 +168,6 @@ main{
     margin-bottom: 50px;
 }
 /* card styles */
-.checked {
-  color: orange;
-}
 .user-cards-container{
   display: flex;
   justify-content: space-evenly;
@@ -255,13 +263,13 @@ footer{
     margin-top: 8px;
     margin-bottom: 20px;
 }
-.footer nav ul{
+.footer ul{
     display: flex;
     justify-content: space-evenly;
 }
-.footer nav ul li{
+.footer ul li{
     list-style: none;
 }
-.footer nav ul li a{
+.footer ul li a{
     text-decoration: none;
 }
